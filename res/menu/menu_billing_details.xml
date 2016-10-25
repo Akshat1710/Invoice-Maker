@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/action_collection"
+          android:icon="@drawable/ic_action_collection"
+          android:title="Cart"
+          android:showAsAction="ifRoom" />
+     
+    <!-- Refresh -->
+    <item android:id="@+id/action_refresh"
+          android:icon="@drawable/ic_action_refresh"
+          android:title="Refresh"
+          android:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.padmavatidiamondjewellers"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <application
+        android:allowBackup="true"
+        android:label="Padmavati"
+        android:theme="@style/AppTheme" android:icon="@drawable/ic_launcher">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BillingDetails"
+            android:label="@string/title_activity_billing_details"
+            android:parentActivityName=".MainActivity" 
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name=".BillSummary"
+            android:label="@string/title_activity_bill_summary"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Transactions"
+            android:label="@string/title_activity_transactions"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Customers"
+            android:label="@string/title_activity_customers">
+        </activity>
+        <activity
+            android:name=".CustomersCopy"
+            android:label="@string/title_activity_customers" 
+            android:parentActivityName=".MainActivity" >
+            
+        </activity>
+        <activity
+            android:name=".Inventory"
+            android:label="@string/title_activity_inventory"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".GoldInventory"
+            android:label="@string/title_activity_gold_inventory" 
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name=".ViewGoldInventory"
+            android:label="@string/title_activity_view_gold_inventory"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Accounts"
+            android:label="@string/title_activity_accounts"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Labour"
+            android:label="@string/title_activity_labour"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".LabourPay"
+            android:label="@string/title_activity_labour_pay"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".CustomersHistory"
+            android:label="@string/title_activity_customers_history"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".InvestmentsLoans"
+            android:label="@string/title_activity_investments_loans"
+            android:parentActivityName=".MainActivity" 
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name=".BillingDetailsName"
+            android:label="@string/title_activity_billing_details_name"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".InventoryAdapter"
+            android:label="@string/title_activity_inventory_adapter" >
+        </activity>
+        <activity
+            android:name=".DiamondInventory"
+            android:label="@string/title_activity_diamond_inventory"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ViewDiamondInventory"
+            android:label="@string/title_activity_view_diamond_inventory"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".ViewSilverInventory"
+            android:label="@string/title_activity_view_silver_inventory" 
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".SilverInventory"
+            android:label="@string/title_activity_silver_inventory"
+            android:parentActivityName=".MainActivity"
+             >
+        </activity>
+    </application>
+
+</manifest>

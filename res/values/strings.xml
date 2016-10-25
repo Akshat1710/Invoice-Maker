@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Padmavati Diamond Jewellers</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_billing_details">BillingDetails</string>
+    <string name="title_activity_bill_summary">BillSummary</string>
+    <string name="title_activity_transactions">Transactions</string>
+    <string name="title_activity_customers">Customers</string>
+    <string name="title_activity_inventory">Inventory</string>
+    <string name="title_activity_gold_inventory">GoldInventory</string>
+    <string name="title_activity_view_gold_inventory">ViewGoldInventory</string>
+    <string name="title_activity_accounts">Accounts</string>
+    <string name="title_activity_labour">Labour</string>
+    <string name="title_activity_labour_pay">LabourPay</string>
+    <string name="title_activity_customers_history">CustomersHistory</string>
+    <string name="title_activity_investments_loans">InvestmentsLoans</string>
+    <string name="title_activity_billing_details_name">BillingDetailsName</string>
+    <string name="title_activity_bd">BD</string>
+    <string name="title_activity_inventory_adapter">InventoryAdapter</string>
+    <string name="title_activity_diamond_inventory">DiamondInventory</string>
+    <string name="title_activity_view_diamond_inventory">ViewDiamondInventory</string>
+    <string name="title_activity_view_silver_inventory">ViewSilverInventory</string>
+    <string name="title_activity_silver_inventory">SilverInventory</string>
+    <string name="appname">PDJ Invoice Maker</string>
+
+</resources>
